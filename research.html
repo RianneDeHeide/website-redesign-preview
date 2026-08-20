@@ -15,7 +15,7 @@ nav: "research"
 <ul class="publication-list">
   {% for item in sorted_items %}
     {% if item.topics contains topic.id %}
-      <li>{{ item.html }}</li>
+      <li>{% include research_item.html item=item %}</li>
     {% endif %}
   {% endfor %}
 </ul>

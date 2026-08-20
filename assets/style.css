@@ -102,3 +102,11 @@ img { max-width: 100%; height: auto; }
   margin-top: 0.9em;
   margin-bottom: 0.35em;
 }
+
+/* Research landing pages */
+.paper-citation { margin: 0.25em 0 1em; }
+.paper-citation p > b:first-child { display: none; }
+.paper-citation p > b:first-child + br { display: none; }
+.paper-topics { color: #555; line-height: 1.5; }
+.paper-title-link { color: inherit; }
+.paper-title-link:hover { color: #224b8d; }

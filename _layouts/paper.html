@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% assign item = site.data.research_items | where: "id", page.research_id | first %}
+<h1>{{ page.title }}</h1>
+{% if page.authors %}<p><b>{{ page.authors }}</b></p>{% endif %}
+<div class="paper-citation">{{ item.html }}</div>
+{% if page.about %}
+<h2>What is this paper about?</h2>
+<p>{{ page.about }}</p>
+{% endif %}
+{% if page.abstract %}
+<h2>{{ page.abstract_heading | default: "Abstract" }}</h2>
+<p>{{ page.abstract }}</p>
+{% elsif page.status_note %}
+<h2>Current status</h2>
+<p>{{ page.status_note }}</p>
+{% endif %}
+{% if item.topics %}
+<h2>Topics</h2>
+<p class="paper-topics">
+{% for topic_id in item.topics %}
+  {% assign topic = site.data.research_topics | where: "id", topic_id | first %}
+  {% capture topic_url %}/research.html#{{ topic_id }}{% endcapture %}
+  <a href="{{ topic_url | relative_url }}">{{ topic.title }}</a>{% unless forloop.last %} · {% endunless %}
+{% endfor %}
+</p>
+{% endif %}
+<p class="back-link"><a href="{{ '/research.html' | relative_url }}">&larr; Research</a></p>
