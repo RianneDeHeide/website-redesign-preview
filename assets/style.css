@@ -14,6 +14,9 @@ body {
 #layout-menu {
   box-sizing: border-box;
   min-height: 100vh;
+  height: 100vh;
+  position: sticky;
+  top: 0;
   background: #f6f6f6;
   border-right: 1px solid #dddddd;
   padding: 0.7em 12px 1.5em;
@@ -78,9 +81,23 @@ img { max-width: 100%; height: auto; }
 .note-list > li { margin-bottom: 0.9em; }
 .meta { color: #555; }
 .back-link { margin-top: 1.4em; }
+/* Media entries: compact paragraphs rather than publication bullets */
+.media-list {
+  list-style: none;
+  margin: 0 0 1em;
+  padding-left: 0;
+}
+.media-list > li {
+  margin: 0 0 1.05em;
+  padding: 0;
+}
+.media-list > li p { margin: 0; }
+
 @media (max-width: 760px) {
   .site-shell { display: block; width: 100%; }
   #layout-menu {
+    position: static;
+    height: auto;
     min-height: 0;
     border-right: 0;
     border-bottom: 1px solid #dddddd;
@@ -114,7 +131,7 @@ img { max-width: 100%; height: auto; }
 
 
 /* Compact navigation with accessible fly-out submenus */
-#layout-menu { position: relative; overflow: visible; }
+#layout-menu { overflow: visible; }
 #layout-menu nav { position: relative; }
 #layout-menu .menu-item.parent { padding-left: 16px; text-indent: -16px; }
 #layout-menu .menu-group { position: relative; }
