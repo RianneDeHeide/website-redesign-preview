@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "All publications"
+title: "All publications and research outputs"
 nav: "research"
 ---
-<h1>All publications</h1>
+<h1>All publications and research outputs</h1>
+<p>This is a single reverse-chronological view of the material listed on the Research page, irrespective of topic.</p>
 {% assign years = site.data.research_items | map: 'year' | uniq | sort | reverse %}
 {% for year in years %}
 <h2>{{ year }}</h2>

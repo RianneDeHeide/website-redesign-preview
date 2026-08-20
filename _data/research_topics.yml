@@ -9,4 +9,6 @@
 - id: foundations
   title: Foundations of statistics, probability and learning
 - id: machine-learning-applications
-  title: Machine learning and applications
+  title: Machine learning, clinical trials and applications
+- id: other
+  title: Other

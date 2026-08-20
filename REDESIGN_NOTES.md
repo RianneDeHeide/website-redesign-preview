@@ -1,9 +1,11 @@
-# Redesign v1 notes
+# Redesign preview — second iteration
 
-- Shared Jekyll layout and navigation.
-- Existing homepage/group/teaching/news/students/links/mailing-list/E-Day text preserved.
-- Existing Activities content is shown at the new About URL; the old `activities.html` URL remains available.
-- Research entries are stored once in `_data/research_items.yml`; the displayed HTML for each entry comes from the original `research.html`.
-- Topic assignments are metadata only and are deliberately easy to change.
-- Notes & Exposition and For young academics are structural placeholders for the next content pass.
-- Visual changes are deliberately conservative; the old Georgia/blue/compact academic feel is retained, but the table-based page layout is replaced by responsive CSS.
+This is a separate GitHub Pages/Jekyll preview. It does not replace the live website.
+
+Changes in this iteration:
+- fixed all oversized content images with explicit responsive photo classes;
+- expanded Research intro, reverse-chronological topic lists, Other topic, and clinical-trials wording;
+- added Notes & Exposition intro and a reusable per-note landing-page structure;
+- split Group into Research team and the full UT Statistics group;
+- updated Teaching for Spring 2027 and added a Teaching material page;
+- simplified the secondary menu to Prospective students, News, and E-mailing list.

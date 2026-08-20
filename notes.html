@@ -4,3 +4,9 @@ title: "Notes & Exposition"
 nav: "notes"
 ---
 <h1>Notes &amp; Exposition</h1>
+<p>This page collects notes, expository pieces and substantial tutorial material that sit alongside my research papers. Some explain a connection between different areas, develop a particular point of view, or make technical material accessible without being intended primarily as a new research paper. Substantial items get their own stable HTML page, with links to a PDF or preprint where available.</p>
+<ul class="note-list">
+{% for note in site.notes %}
+  <li><p><a href="{{ note.url | relative_url }}"><b>{{ note.title }}</b></a>{% if note.status %}<br/><span class="meta">{{ note.status }}</span>{% endif %}</p></li>
+{% endfor %}
+</ul>
