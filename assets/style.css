@@ -110,3 +110,43 @@ img { max-width: 100%; height: auto; }
 .paper-topics { color: #555; line-height: 1.5; }
 .paper-title-link { color: inherit; }
 .paper-title-link:hover { color: #224b8d; }
+
+/* Short CV: deliberately quieter than ordinary content pages */
+.short-cv {
+  max-width: 780px;
+}
+.cv-section-label {
+  margin-top: 1.25em;
+  margin-bottom: 0.4em;
+  color: #555;
+  font-size: 0.9em;
+  font-weight: normal;
+  font-style: italic;
+}
+.cv-row {
+  display: grid;
+  grid-template-columns: 7.7em minmax(0, 1fr);
+  column-gap: 0.8em;
+  margin-bottom: 0.28em;
+  line-height: 1.35;
+}
+.cv-year {
+  color: #666;
+  white-space: nowrap;
+}
+.cv-row-undated {
+  display: block;
+}
+.cv-research {
+  margin-bottom: 0;
+}
+@media (max-width: 560px) {
+  .cv-row {
+    display: block;
+    margin-bottom: 0.55em;
+  }
+  .cv-year {
+    display: block;
+    margin-bottom: 0.05em;
+  }
+}
