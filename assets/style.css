@@ -53,7 +53,7 @@ h1, h2, h3 {
   border-bottom: 1px solid #aaaaaa;
 }
 h1 { font-size: 165%; }
-h2 { padding-top: 0.8em; font-size: 125%; }
+h2 { padding-top: 0.8em; font-size: 125%; border-bottom: none; }
 h3 { font-size: 110%; border-bottom: none; }
 p { margin-top: 0; margin-bottom: 0.8em; padding: 0; line-height: 1.35; }
 ul, ol, dl { margin-top: 0.2em; padding-top: 0; margin-bottom: 0.8em; }
@@ -70,7 +70,7 @@ img { max-width: 100%; height: auto; }
 .topic-jump a { white-space: nowrap; }
 .topic-jump a:not(:last-child)::after { content: " · "; color: #777; border: 0; }
 .publication-list { padding-left: 1.35em; }
-.publication-list > li { margin-bottom: 0.8em; }
+.publication-list > li { margin-bottom: 0.95em; }
 .structure-note { color: #666; font-style: italic; }
 .group-list > li { margin-bottom: 0.45em; }
 .group-intro { max-width: 760px; }
