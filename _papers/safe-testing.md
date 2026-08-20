@@ -30,7 +30,9 @@ related:
     internal: true
     note: "Interview about p-values and e-values, part of the media coverage around Safe Testing."
   - title: "Betekent de doorbraak van deze wiskundige het einde van de p-waarde?"
-    source: "Ad Valvas, 2024"
+    source: "Ad Valvas, 29 April 2024"
     url: "https://advalvas.vu.nl/wetenschap-onderwijs/betekent-de-doorbraak-van-deze-wiskundige-het-einde-van-de-p-waarde/"
+    backup_url: "/AdvalvasInterviewSafeTesting.pdf"
+    backup_label: "PDF copy"
     note: "Interview about e-values and statistical inference."
 ---

@@ -10,6 +10,9 @@ collections:
   notes:
     output: true
     permalink: /notes/:name/
+  papers:
+    output: true
+    permalink: /research/:name/
 defaults:
 - scope:
     path: ''
@@ -17,3 +20,9 @@ defaults:
   values:
     layout: note
     nav: notes
+- scope:
+    path: ''
+    type: papers
+  values:
+    layout: paper
+    nav: research
