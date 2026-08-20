@@ -111,42 +111,54 @@ img { max-width: 100%; height: auto; }
 .paper-title-link { color: inherit; }
 .paper-title-link:hover { color: #224b8d; }
 
-/* Short CV: deliberately quieter than ordinary content pages */
-.short-cv {
-  max-width: 780px;
+
+/* Hierarchical navigation */
+#layout-menu .menu-item.parent { padding-left: 16px; text-indent: -16px; }
+#layout-menu .menu-item.child {
+  padding-left: 1.35em;
+  text-indent: 0;
+  font-size: 0.90em;
 }
-.cv-section-label {
-  margin-top: 1.25em;
-  margin-bottom: 0.4em;
+#layout-menu .menu-item.child a {
+  margin-left: 0;
+  color: #667f9f;
+  line-height: 1.42em;
+}
+#layout-menu a.section-current { color: #315f9f; }
+#layout-menu .menu-item.utility-start { margin-top: 0.65em; }
+
+/* Short CV: deliberately quiet and compact */
+.short-cv { max-width: 780px; }
+.short-cv-table { border-collapse: collapse; width: 100%; margin: 0; }
+.short-cv-table th, .short-cv-table td { border: 0; text-align: left; vertical-align: top; }
+.short-cv-table th.cv-section {
+  padding: 1.05em 0 0.28em;
   color: #555;
-  font-size: 0.9em;
+  font-size: 0.92em;
   font-weight: normal;
   font-style: italic;
 }
-.cv-row {
-  display: grid;
-  grid-template-columns: 7.7em minmax(0, 1fr);
-  column-gap: 0.8em;
-  margin-bottom: 0.28em;
-  line-height: 1.35;
-}
-.cv-year {
+.short-cv-table tr:first-child th.cv-section { padding-top: 0; }
+.short-cv-table td { padding: 0.10em 0; line-height: 1.32; }
+.short-cv-table td.cv-date {
+  width: 7.6em;
+  padding-right: 1em;
   color: #666;
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
-.cv-row-undated {
-  display: block;
-}
-.cv-research {
-  margin-bottom: 0;
+.about-links { margin-bottom: 1.05em; }
+
+@media (max-width: 760px) {
+  #layout-menu nav { display: block; }
+  #layout-menu .menu-item.parent { padding-left: 0; text-indent: 0; }
+  #layout-menu .menu-item.child { padding-left: 1em; }
+  #layout-menu .menu-item.utility-start { margin-top: 0.55em; }
 }
 @media (max-width: 560px) {
-  .cv-row {
-    display: block;
-    margin-bottom: 0.55em;
-  }
-  .cv-year {
-    display: block;
-    margin-bottom: 0.05em;
-  }
+  .short-cv-table, .short-cv-table tbody, .short-cv-table tr,
+  .short-cv-table td, .short-cv-table th { display: block; width: auto; }
+  .short-cv-table th.cv-section { padding-top: 1em; }
+  .short-cv-table td.cv-date { padding-top: 0.28em; padding-bottom: 0; }
+  .short-cv-table td:not(.cv-date) { padding-bottom: 0.25em; }
 }
