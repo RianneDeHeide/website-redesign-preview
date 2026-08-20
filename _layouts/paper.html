@@ -16,6 +16,14 @@ layout: default
 <h2>Current status</h2>
 <p>{{ page.status_note }}</p>
 {% endif %}
+{% if page.related %}
+<h2>Related popular writing and media</h2>
+<ul class="publication-list related-writing-list">
+{% for related in page.related %}
+<li><p><b><a href="{% if related.internal %}{{ related.url | relative_url }}{% else %}{{ related.url }}{% endif %}"{% unless related.internal %} target="_blank" rel="noopener"{% endunless %}>{{ related.title }}</a></b>{% if related.source %}<br/>{{ related.source }}{% endif %}{% if related.note %}<br/>{{ related.note }}{% endif %}</p></li>
+{% endfor %}
+</ul>
+{% endif %}
 {% if item.topics %}
 <h2>Topics</h2>
 <p class="paper-topics">
