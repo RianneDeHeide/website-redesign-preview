@@ -12,9 +12,6 @@ layout: default
 {% if page.abstract %}
 <h2>{{ page.abstract_heading | default: "Abstract" }}</h2>
 <p>{{ page.abstract }}</p>
-{% elsif page.status_note %}
-<h2>Current status</h2>
-<p>{{ page.status_note }}</p>
 {% endif %}
 {% if page.related %}
 <h2>Related popular writing and media</h2>
