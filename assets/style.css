@@ -44,15 +44,15 @@ div#toptitle {
 }
 div#toptitle h1 { margin-bottom: 0; }
 h1, h2, h3 {
+  border-bottom: none;
   color: #527bbd;
   margin-top: 0.7em;
   margin-bottom: 0.3em;
   padding-bottom: 0.2em;
   line-height: 1.08;
   padding-top: 0.5em;
-  border-bottom: 1px solid #aaaaaa;
 }
-h1 { font-size: 165%; border-bottom: none; }
+h1 { font-size: 165%; }
 h2 { padding-top: 0.8em; font-size: 125%; border-bottom: none; }
 h3 { font-size: 110%; border-bottom: none; }
 p { margin-top: 0; margin-bottom: 0.8em; padding: 0; line-height: 1.35; }
