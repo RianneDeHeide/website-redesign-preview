@@ -1,3 +1,29 @@
+- title: 'Dynamic e-closure for online hypotheses with any-time-valid evidence: closure principles and projective mergers'
+  group: Work in process
+  html: '<p><b>Dynamic e-closure for online hypotheses with any-time-valid evidence: closure principles and projective mergers</b><br/>
+
+    Rianne de Heide<br/>
+
+    <a href="https://arxiv.org/abs/2608.09927" target="_blank">arxiv</a>, 2026</p>'
+  id: item-25
+  year: 2026
+  topics:
+  - e-values-anytime
+  - multiple-testing
+  sort_date: '2026-08-10'
+- title: Carefree multiple testing with e-processes
+  group: Publications
+  html: '<p><b>Carefree multiple testing with e-processes</b><br/>
+
+    Yury Tavyrikov, Jelle J. Goeman and Rianne de Heide<br/>
+
+    Electronic Journal of Statistics, 2026. &nbsp;&nbsp; <a href="https://arxiv.org/abs/2501.19360" target="_blank">arxiv</a></p>'
+  id: item-14
+  year: 2026
+  topics:
+  - e-values-anytime
+  - multiple-testing
+  sort_date: '2026-08-20'
 - title: Authorship verification of the Deutero-Pauline letters through deep learning
   group: Publications
   html: '<p><b>Authorship verification of the Deutero-Pauline letters through deep learning</b><br/>
@@ -9,6 +35,7 @@
   year: 2025
   topics:
   - machine-learning-applications
+  sort_date: '2025-06-06'
 - title: Safe Testing
   group: Publications
   html: '<p><b>Safe Testing</b><br/>
@@ -31,6 +58,7 @@
   topics:
   - e-values-anytime
   - foundations
+  sort_date: '2024-11-01'
 - title: E-statistics, group invariance and any time valid testing
   group: Publications
   html: '<p><b>E-statistics, group invariance and any time valid testing</b><br/>
@@ -43,6 +71,7 @@
   topics:
   - e-values-anytime
   - foundations
+  sort_date: '2024-08-01'
 - title: Attribution-based Explanations that Provide Recourse Cannot be Robust
   group: Publications
   html: '<p><b>Attribution-based Explanations that Provide Recourse Cannot be Robust</b><br/>
@@ -54,6 +83,7 @@
   year: 2023
   topics:
   - machine-learning-applications
+  sort_date: '2023-01-01'
 - title: Top Two Algorithms Revisited
   group: Publications
   html: '<p><b>Top Two Algorithms Revisited</b><br/>
@@ -65,6 +95,7 @@
   year: 2022
   topics:
   - bandits
+  sort_date: '2022-12-01'
 - title: The truth-convergence of open-minded Bayesianism
   group: Publications
   html: '<p><b>The truth-convergence of open-minded Bayesianism</b><br/>
@@ -79,6 +110,7 @@
   topics:
   - bayesian
   - foundations
+  sort_date: '2022-03-01'
 - title: Bandits with many optimal arms
   group: Publications
   html: '<p><b>Bandits with many optimal arms</b><br/>
@@ -90,6 +122,7 @@
   year: 2021
   topics:
   - bandits
+  sort_date: '2021-12-01'
 - title: 'God, the beautiful and mathematics: a response'
   group: Publications
   html: '<p><b>God, the beautiful and mathematics: a response</b><br/>
@@ -101,6 +134,7 @@
   year: 2021
   topics:
   - other
+  sort_date: '2021-01-01'
 - title: 'Optional Stopping with Bayes Factors: A Categorization and Extension of Folklore Results, with an Application to Invariant Situations'
   group: Publications
   html: '<p><b>Optional Stopping with Bayes Factors: A Categorization and Extension of Folklore Results, with an Application to Invariant Situations</b><br/>
@@ -114,6 +148,7 @@
   - bayesian
   - e-values-anytime
   - foundations
+  sort_date: '2021-09-01'
 - title: Why optional stopping can be a problem for Bayesians
   group: Publications
   html: '<p><b>Why optional stopping can be a problem for Bayesians</b><br/>
@@ -129,6 +164,7 @@
   - bayesian
   - e-values-anytime
   - foundations
+  sort_date: '2021-06-01'
 - title: Fixed-Confidence Guarantees for Bayesian Best-Arm Identification
   group: Publications
   html: '<p><b>Fixed-Confidence Guarantees for Bayesian Best-Arm Identification</b> <br/>
@@ -141,6 +177,7 @@
   topics:
   - bandits
   - bayesian
+  sort_date: '2020-06-01'
 - title: Safe-Bayesian Generalized Linear Regression
   group: Publications
   html: '<p><b>Safe-Bayesian Generalized Linear Regression</b><br/>
@@ -152,6 +189,7 @@
   year: 2020
   topics:
   - bayesian
+  sort_date: '2020-06-01'
 - title: Invited discussion to the paper Using Stacking to Average Bayesian Predictive Distributions
   group: Publications
   html: '<p><b>Invited discussion to the paper Using Stacking to Average Bayesian Predictive Distributions</b> by Yao, Vehtari, Simpson and Gelman <br/>
@@ -164,18 +202,7 @@
   topics:
   - bayesian
   - foundations
-- title: Carefree multiple testing with e-processes
-  group: Work in process
-  html: '<p><b>Carefree multiple testing with e-processes</b><br/>
-
-    Yury Tavyrikov, Jelle J. Goeman and Rianne de Heide <br/>
-
-    <a href="https://arxiv.org/abs/2501.19360" target="“blank”">Arxiv</a>, 2025, <i>Accepted to EJS</i></p>'
-  id: item-14
-  year: 2025
-  topics:
-  - e-values-anytime
-  - multiple-testing
+  sort_date: '2018-09-01'
 - title: 'Bringing Closure to False Discovery Rate Control: A General Principle for Multiple Testing'
   group: Work in process
   html: '<p><b>Bringing Closure to False Discovery Rate Control: A General Principle for Multiple Testing</b> <br/>
@@ -194,6 +221,7 @@
   topics:
   - multiple-testing
   - e-values-anytime
+  sort_date: '2025-09-02'
 - title: Bringing Flexibility to the Benjamini-Hochberg Procedure
   group: Work in preparation
   html: '<p><b>Bringing Flexibility to the Benjamini-Hochberg Procedure</b><br/>
@@ -205,6 +233,7 @@
   year: 2026
   topics:
   - multiple-testing
+  sort_date: '2026-06-30'
 - title: 'Interactive Edge Orientation Identification: An Optimization Approach'
   group: Work in preparation
   html: '<p><b>Interactive Edge Orientation Identification: An Optimization Approach</b><br/>
@@ -216,6 +245,8 @@
   year: 2026
   topics:
   - machine-learning-applications
+  - bandits
+  sort_date: '2026-06-29'
 - title: Permutation-based FDR control via the e-closure principle
   group: Work in preparation
   html: '<p><b>Permutation-based FDR control via the e-closure principle</b><br/>
@@ -228,6 +259,7 @@
   topics:
   - multiple-testing
   - e-values-anytime
+  sort_date: '2026-06-30'
 - title: E-values for early decisions in clinical trials
   group: Work in preparation
   html: '<p><b>E-values for early decisions in clinical trials</b><br/>
@@ -240,6 +272,7 @@
   topics:
   - e-values-anytime
   - machine-learning-applications
+  sort_date: '2026-07-02'
 - title: Anytime-valid log-rank testing for randomised trials
   group: Work in preparation
   html: '<p><b>Anytime-valid log-rank testing for randomised trials</b><br/>
@@ -252,6 +285,7 @@
   topics:
   - e-values-anytime
   - machine-learning-applications
+  sort_date: '2026-07-02'
 - title: Multiple testing with any-time valid evidence
   group: Work in preparation
   html: '<p><b>Multiple testing with any-time valid evidence</b><br/>
@@ -264,6 +298,7 @@
   topics:
   - multiple-testing
   - e-values-anytime
+  sort_date: '2026-06-30'
 - title: 'Bayesian Learning: Challenges, Limitations and Pragmatics'
   group: Other
   html: '<p><b>Bayesian Learning: Challenges, Limitations and Pragmatics</b> (PhD Dissertation)<br/>
@@ -274,6 +309,7 @@
   topics:
   - bayesian
   - foundations
+  sort_date: '2020-12-01'
 - title: The Safe-Bayesian Lasso
   group: Other
   html: '<p><b>The Safe-Bayesian Lasso</b> (MSc Thesis)<br/>
@@ -283,6 +319,7 @@
   year: 2016
   topics:
   - bayesian
+  sort_date: '2016-01-01'
 - title: Interpreting Generalized Bayesian Inference by Generalized Bayesian Inference
   group: Other
   html: '<p><b>Interpreting Generalized Bayesian Inference by Generalized Bayesian Inference</b><br/>
@@ -295,3 +332,4 @@
   topics:
   - bayesian
   - foundations
+  sort_date: '2023-07-01'

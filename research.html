@@ -4,11 +4,12 @@ title: "Research"
 nav: "research"
 ---
 <h1>Research</h1>
-<p><b>Citations</b><br/>
-Like many Dutch names, my surname consists of two words: 'De Heide'. The article 'De' is capitalised, except when directly preceded by a given name or initials. Although 'De' always precedes 'Heide', in an alphabetical list, my name should be listed according to 'Heide' only. Citing a paper of mine should thus look like 'De Heide (2020)'.</p>
+<h2 class="compact-heading">Citations</h2>
+<p>Like many Dutch names, my surname consists of two words: 'De Heide'. The article 'De' is capitalised, except when directly preceded by a given name or initials. Although 'De' always precedes 'Heide', in an alphabetical list, my name should be listed according to 'Heide' only. Citing a paper of mine should thus look like 'De Heide (2020)'.</p>
+<h2 class="compact-heading">Research by topic</h2>
 <p>The research below is organised by topic rather than by publication status. Papers and other research outputs can therefore appear under more than one topic. The lists include published papers as well as preprints, work in process, work in preparation and posters. Within each topic, entries are ordered reverse chronologically.</p>
 <p class="topic-jump"><a href="{{ '/all-publications.html' | relative_url }}"><b>All publications and research outputs, reverse chronologically</b></a> &nbsp;·&nbsp; <a href="https://scholar.google.nl/citations?user=_Yo_lHcAAAAJ&amp;hl=nl&amp;oi=ao"><b>Google Scholar</b></a></p>
-{% assign sorted_items = site.data.research_items | sort: 'year' | reverse %}
+{% assign sorted_items = site.data.research_items | sort: 'sort_date' | reverse %}
 {% for topic in site.data.research_topics %}
 <h2 id="{{ topic.id }}">{{ topic.title }}</h2>
 <ul class="publication-list">

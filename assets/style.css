@@ -39,11 +39,10 @@ div.menu-category.site-name { margin-top: 0; font-size: 1.02em; }
 div.menu-category.secondary { margin-top: 1.6em; }
 div.menu-item { padding-left: 16px; text-indent: -16px; }
 div#toptitle {
-  padding-bottom: 0.2em;
-  margin-bottom: 1.5em;
-  border-bottom: 3px double gray;
+  padding-bottom: 0;
+  margin-bottom: 1.2em;
 }
-div#toptitle + h2, div#toptitle + h3 { margin-top: -0.7em; }
+div#toptitle h1 { margin-bottom: 0; }
 h1, h2, h3 {
   color: #527bbd;
   margin-top: 0.7em;
@@ -95,4 +94,11 @@ img { max-width: 100%; height: auto; }
   #img-container { max-width: 100%; }
   #img-container img.home-photo, #img-container img.content-photo { max-width: 100%; }
   #text-container { min-width: 0; }
+}
+
+.compact-heading {
+  border-bottom: none;
+  padding-top: 0.35em;
+  margin-top: 0.9em;
+  margin-bottom: 0.35em;
 }
